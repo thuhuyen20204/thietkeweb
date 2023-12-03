@@ -1,0 +1,44 @@
+body {
+    margin: auto; 
+    max-width: 600px;
+    padding: 20px;
+    font-family: 'Roboto Slab'; 
+    font-size: 14px;
+}
+
+h1 {
+    color: rgb(19, 151, 151);
+    font-size: 23px;
+
+}
+
+.box1 {
+    background-color: rgb(66, 189, 189);
+    color: white;
+}
+
+a {
+    text-decoration: none; 
+    color:black;  
+    }
+
+a:hover {
+    color: rgb(228, 228, 19);
+}
+
+.box2{
+    width: 500px;
+    height: 350px;
+    background-color:lightgray;
+    color: rgb(65, 110, 224);
+    text-align: center;
+}
+.box2 img {
+    width: 400px;
+    height: auto;
+    
+}
+
+.box3{
+    text-align: right;
+}

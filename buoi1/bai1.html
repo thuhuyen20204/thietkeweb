@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bài 1</title>
+</head>
+<body>
+    <h1>Bài 1: Ý nghĩa của thẻ và ví dụ minh họa</h1>
+    <h2>1. HTML cơ bản</h2>
+    <h3>1.1 Tài liệu HTML</h3>
+    <p>Tất cả tài liệu HTML phải bắt đầu bằng khai báo loại tài liệu: < !DOCTYPE html ></p>
+    <p>Bản thân tài liệu HTML bắt đầu bằng < html > và kết thúc bằng < /html ></p>
+    <p>Phần hiển thị của tài liệu HTML nằm giữa < body > và < /body ></p>
+    <h3>Ví dụ:</h3>
+        <p>< !DOCTYPE html >
+            <p>< html ></p>
+                <p>< body ></p>
+                    <p>< h1 >Tiêu đề cấp số 1< /h1 ></p>
+                    <p>< p >Đây là đoạn đầu tiên< /p ></p>
+                <p>< /body ></p>
+            <p>< /html ></p>
+
+    <h3>1.2 The <!DOCTYPE> Declaration</h3>
+    <p>Khai < !DOCTYPE > báo thể hiện loại tài liệu và giúp trình duyệt hiển thị trang web một cách chính xác.</p>
+    <p>Nó chỉ được xuất hiện một lần, ở đầu trang (trước bất kỳ thẻ HTML nào) và không phân biệt chữ hoa hay chữ thường</p>
+    <h3>Ví dụ:</h3>
+        <p>< !DOCTYPE html ></p>
+
+    <h3>1.3 Tiêu đề HTML</h3>
+    <p>Tiêu đề HTML được xác định bằng thẻ < h1 >đến  < h6 ></p>
+    <p>< h1 >xác định tiêu đề quan trọng nhất. < h6 >xác định tiêu đề ít quan trọng nhất </p>
+    <h3>Ví dụ:</h3>
+        <h1>Tiêu đề cấp 1</h1>
+        <h2>Tiêu đề cấp 2</h2>
+        <h3>Tiêu đề cấp 3</h3>
+
+    <h3>1.4 Đoạn HTML</h3>
+    <p>Các đoạn HTML được xác định bằng < p >thẻ:</p>
+    <h3>Ví dụ:</h3>
+        <p>Đây là đoạn 1</p>
+    
+    <h3>1.5 Liên kết HTML</h3>
+    <p>Liên kết HTML được xác định bằng < a >thẻ</p>
+    <p>Đích của liên kết được chỉ định trong huộc tính "hreft".</p>
+    <h3>Ví dụ:</h3>
+        <a href="https://www.instagram.com/thuhuyen20204/" target="_self">Instagram</a>
+
+    <h3>1.6 Hình ảnh HTML</h3>
+    <p>Hình ảnh HTML được xác định bằng thẻ < img >.</p>
+    <p>Tệp nguồn ( src), văn bản thay thế ( alt), width và height được cung cấp dưới dạng thuộc tính:</p>
+    <h3>Ví dụ:</h3>
+        <img src="file:///C:/Users/ntthu/Downloads/z4776246920105_663015d945258a5990b9643c15c1d0a1.jpg">
+
+    <h2>2. Phần tử HTML</h2>
+    <h3>2.1 Phần tử HTML</h3>
+    <p>Phần tử HTML là mọi thứ từ thẻ bắt đầu đến thẻ kết thúc:</p>
+    <p>< tagname > Nội dung ở đây... < / tagname ></p>
+    <h3>Ví dụ:</h3>
+        <h1>Tiêu đề 1</h1>
+        <p>Đoạn 1</p>
+        <p><b>Lưu ý:</b>Một số phần tử HTML không có nội dung (như phần tử < br >). Những phần tử này được gọi là phần tử trống. Các phần tử trống không có thẻ kết thúc!</p>
+
+    <h3>2.2 Các phần tử HTML lồng nhau</h3> 
+    <p>Các phần tử HTML có thể được lồng vào nhau (điều này có nghĩa là các phần tử có thể chứa các phần tử khác).</p>
+    <p>Tất cả các tài liệu HTML bao gồm các phần tử HTML lồng nhau.</p>
+    <h3>Ví dụ:</h3>
+        <!DOCTYPE html>
+        <html>
+            <body>
+    
+                <h2>Đây là tiêu đề 2</h1>
+                <p>Đây là đoạn 1</p>
+            </body>
+        </html>
+
+    <h3>2.3 Thẻ kết thúc</h3>
+    <p>Một số thành phần HTML sẽ hiển thị chính xác ngay cả khi bạn quên thẻ kết thúc</p>
+    <h3>Ví dụ:</h3>
+        <html>
+            <body>
+        
+                <p>Đây là đoạn 1
+    <p>Tuy nhiên kết quả lỗi có thể xảy ra nếu quên thẻ kết thúc</p>
+
+    <h3>2.4 Các phần tử HTML trống</h3>
+    <p>Các phần tử HTML không có nội dung được gọi là các phần tử trống.</p>
+    <p>Thẻ < br > xác định ngắt dòng và là phần tử trống không có thẻ đóng</p>
+    <h3>Ví dụ:</h3>
+        <p>Đây là<br>rất đẹp </p>
+
+    <h3>2.5 HTML không phân biệt chữ hoa, chữ thường</h3>
+    <p>Thẻ HTML không phân biệt chữ hoa chữ thường: < P >có nghĩa giống như < p >.</p>
+
+    <h2>3. Thuộc tính HTML</h2>
+    <h3>3.1 Thuộc tính Href</h3>
+    <p>Thẻ < a > xác định một siêu liên kết. Thuộc tính "href" chỉ định URL của trang mà liên kết tới</p>
+    <h3>Ví dụ:</h3>
+        <a href="https://www.youtube.com/"Visit Youtube></a>
+    
+    <h3>3.2 Thuộc tính Src</h3>
+    <p>Thẻ <img>được sử dụng để nhúng hình ảnh vào trang HTML. Thuộc tính "src" chỉ định đường dẫn đến hình ảnh sẽ được hiển thị</p>
+    <h3>Ví dụ:</h3>
+        <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="300">
+    
+    <h3>3.3 thuộc tính Width và Height</h3>
+    <p>Thẻ <img>cũng phải chứa các thuộc tính "width" và "height" xác định chiều rộng và chiều cao của hình ảnh (tính bằng pixel):</p>
+    <h3>Ví dụ:</h3>
+        <img src="file:///C:/Users/ntthu/Downloads/z4643602641933_4c33e3839479b99bb3767c3563a91ea21.jpg" width="300" height="300">
+
+    <h3>3.4 Thuộc tính Alt</h3>
+    <p>Thuộc tính bắt buộc "alt" cho thẻ <img> chỉ định văn bản thay thế cho hình ảnh nếu hình ảnh vì lý do nào đó không thể hiển thị. Điều này có thể do kết nối chậm hoặc lỗi thuộc srctính hoặc do người dùng sử dụng trình đọc màn hình.</p>
+    <h3>Ví dụ:</h3>
+        <img src="<img src=https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 width="300" alt="Đây là con mèo">
+
+    <h3>3.5 Thuộc tính Style</h3>
+    <p>Thuộc tính "style" được sử dụng để thêm kiểu cho một thành phần, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.</p>
+    <h3>Ví dụ:</h3>
+        <p style="color:violet;">Đoạn này màu tím.</p>
+
+    <h3>3.6 Thuộc tính Lang</h3>
+    <p>Bạn phải luôn bao gồm thuộc tính "lang" bên trong thẻ < html >để khai báo ngôn ngữ của trang Web. Điều này nhằm hỗ trợ các công cụ tìm kiếm và trình duyệt.</p>
+    <h3>Ví dụ:</h3>
+        <p>< !DOCTYPE html ></p>
+        <p>< html lang="en" ></p>
+        <p>< body ></p>
+        <p>...</p>
+        <p>< /body ></p>
+        <p>< /html ></p>
+
+    <h3>3.7 Thuộc tính Title</h3>
+    <p>Thuộc tính "title" xác định một số thông tin bổ sung về một phần tử.</p>
+    <p>Giá trị của thuộc tính tiêu đề sẽ được hiển thị dưới dạng chú giải công cụ khi bạn di chuột qua phần tử</p>
+    <h3>Ví dụ</h3>
+        <p title="Thu Huyền">Giới thiệu</p>
+
+    <h2>4. Tiêu đề HTML</h2>
+    <p>Tiêu đề HTML là tiêu đề hoặc phụ đề mà bạn muốn hiển thị trên trang web.</p>
+    <h3>4.1 Tiêu đề HTML</h3>
+    <p>Tiêu đề HTML được xác định bằng thẻ < h1 >đến  < h6 ></p>
+    <p>< h1 >xác định tiêu đề quan trọng nhất. < h6 >xác định tiêu đề ít quan trọng nhất </p>
+    <h3>Ví dụ:</h3>
+        <h1>Tiêu đề cấp 1</h1>
+        <h2>Tiêu đề cấp 2</h2>
+        <h3>Tiêu đề cấp 3</h3>
+        <h4>Tiêu đề cấp 4</h4>
+        <h5>Tiêu đề cấp 5</h5>
+        <h6>Tiêu đề cấp 6</h6>
+    <p><b>Lưu ý: </b>Trình duyệt tự động thêm một số khoảng trắng (lề) trước và sau tiêu đề.</p>
+    <p><b>Lưu ý: </b>Chỉ sử dụng tiêu đề HTML cho tiêu đề. Không sử dụng tiêu đề để làm cho văn bản LỚN hoặc in đậm .</p>
+    <h3>4.2 Tiêu đề lớn hơn</h3>
+    <p>Mỗi tiêu đề HTML có kích thước mặc định. Tuy nhiên, bạn có thể chỉ định kích thước cho bất kỳ tiêu đề nào bằng thuộc tính "style" này bằng thuộc tính CSS "font-size"</p>
+    <h3>Ví dụ:</h3>
+        <h1 style="font-size:50px;"Thu Huyền</h1>
+    
+    <h2>5. Đoạn HTML</h2>
+    <p>Đoạn văn luôn bắt đầu trên một dòng mới và thường là một khối văn bản.</p>
+    <h3>5.1 Đoạn HTML</h3>
+    <p>Phần tử HTML < p >xác định một đoạn văn.</p>
+    <p>Một đoạn văn luôn bắt đầu trên một dòng mới và trình duyệt sẽ tự động thêm một số khoảng trắng (lề) trước và sau một đoạn văn.</p>
+    <h3>Ví dụ:</h3>
+        <p>Đây là một đoạn</p>
+        
+    <h3>5.2 Hiển thị HTML</h3>
+    <p>Bạn không thể thay đổi cách hiển thị bằng cách thêm dấu cách hoặc dòng thừa trong mã HTML của mình.</p>
+    <p>Trình duyệt sẽ tự động xóa mọi khoảng trắng và dòng thừa khi trang được hiển thị</p>
+    
+    <h2>6. HTML Styles</h2>
+    <h3>6.1 Thuộc tính kiểu HTML</h3>
+    <p>Việc đặt kiểu của phần tử HTML có thể được thực hiện bằng stylethuộc tính.</p>
+    <p>Thuộc tính HTML stylecó cú pháp sau:</p>
+    <p>< tagname style="property:value;" >< /tagname ></p>
+
+    <h3>6.2 Màu nền</h3>
+    <p>Thuộc tính CSS "background-color" xác định màu nền cho phần tử HTML.</p>
+    <h3>Ví dụ:</h3>
+        <p style="background-color:darkviolet;">Đoạn này hiển thị màu tím</p>
+    
+    <h3>6.3 Văn bản màu</h3>
+    <p>Thuộc tính CSS "color" xác định màu văn bản cho phần tử HTML</p>
+    <h3>Ví dụ:</h3>
+        <p><p style="color:violet;">Dòng này màu tím</p>
+
+    <h3>6.4 Phông chữ</h3>
+    <p>Thuộc tính CSS "font-family" xác định phông chữ được sử dụng cho phần tử HTML</p>
+    <h3>Ví dụ:</h3>
+        <p><p style="font-family:verdana;">Đây là dòng 1</p>
+
+    <h3>6.5 Cỡ chữ</h3>
+    <p>Thuộc tính CSS "font-size" xác định kích thước văn bản cho phần tử HTML</p>
+    <h3>Ví dụ:</h3>
+        <p style="font-size:50%;">Cỡ chữ 50</p>
+    
+    <h3>6.6 Căn chỉnh văn bản</h3>
+    <p>Thuộc tính CSS "text-align" xác định căn chỉnh văn bản theo chiều ngang cho phần tử HTML</p>
+    <h3>Ví dụ:</h3>
+    <p style="text-align:center;">Câu này ở giữa</p>
+    
+    <h2>7. Định dạng văn bản HTML</h2>
+    <h3>7.1 < b >- Chữ in đậm</h3>
+    <h3>Ví dụ:</h3>
+        <p><b>Câu này được in đậm</b></p>
+
+    <h3>7.2 < strong >- Văn bản quan trọng</h3>
+    <h3>Ví dụ:</h3>
+        <p><strong>Câu này quan trọng</strong></p>
+
+    <h3>7.3 < i >- Văn bản in nghiêng</h3>
+    <h3>Ví dụ:</h3>
+        <i>Câu này được in nghiêng</i>
+    
+    <h3>7.4 < em >- Đoạn văn bản được nhấn mạnh</h3>
+    <h3>Ví dụ:</h3>
+        <em>Câu này được nhấn mạnh</em>
+
+    <h3>7.5 < mark >- Văn bản được đánh dấu</h3>
+    <h3>Ví dụ:</h3>
+        <p>Câu này được <mark>đánh dấu</mark></p>
+
+    <h3>7.6 < small >- Văn bản nhỏ hơn</h3>
+    <h3>Ví dụ:</h3>
+        <small>Câu này nhỏ hơn</small>
+
+    <h3>7.7 < del >- Văn bản đã xóa</h3>
+    <h3>Ví dụ:</h3>
+        <p>Ngày mai là thứ<del>hai</del></p>
+
+    <h3>7.8 < ins >- Đã chèn văn bản</h3>
+    <h3>Ví dụ:</h3>
+        <p>Ngày mai là thứ <del>hai </del><ins>ba</ins></p>
+
+    <h3>7.9 < sub >- Văn bản chỉ số dưới</h3>
+    <h3>Ví dụ:</h3>
+        <p>Con người cần O<sub>2</sub> để sống</p>
+
+    <h3>7.10 < sup >- Văn bản chỉ số trên</h3>
+    <h3>Ví dụ:</h3>
+        <p>Bình phương của một số là n<sup>2</sup></p>
+
+    <h2>8. Các phần tử trích dẫn và trích dẫn HTML</h2>
+    <h3>8.1 Phần tử trích dẫn < blockquote ></h3>
+    <p>Phần tử HTML < blockquote >xác định một phần được trích dẫn từ một nguồn khác.</p>
+    <p>Trình duyệt thường thụt lề < blockquote >các phần tử.</p>
+
+    <h3>8.2 HTML < q > cho các trích dẫn ngắn</h3>
+    <p>Thẻ HTML < q > xác định một trích dẫn ngắn.</p>
+    <h3>Ví dụ:</h3>
+    <p>Bác Hồ đã từng nói:<q>Các vua Hùng đã có công dựng nước, Bác cháu ta phải cùng nhau giữ lấy nước</q></p>
+
+    <h3>8.3 HTML < abbr > cho từ viết tắt</h3>
+    <p>Thẻ HTML < abbr > xác định từ viết tắt hoặc từ viết tắt, như "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</p>
+    <p>Đánh dấu các chữ viết tắt có thể cung cấp thông tin hữu ích cho trình duyệt, hệ thống dịch thuật và công cụ tìm kiếm.</p>
+    <h3>Ví dụ:</h3>
+        <p>Môn thiết kế web học về <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+    <h3>8.4 HTML < address > cho thông tin liên hệ</h3>
+    <p>Thẻ HTML < address > xác định thông tin liên hệ của tác giả/chủ sở hữu tài liệu hoặc bài viết.</p>
+    <p>Thông tin liên hệ có thể là địa chỉ email, URL, địa chỉ thực, số điện thoại, địa chỉ mạng xã hội, v.v.</p>
+    <p>Văn bản trong < address > phần tử thường hiển thị ở dạng in nghiêng và trình duyệt sẽ luôn thêm dấu ngắt dòng trước và sau < address > phần tử</p>
+    <h3>Ví dụ:</h3>
+        <p>Địa chỉ trường Đại học Thủ Đô Hà Nội:<address>98 Dương Quảng Hàm</address></p>
+
+    <h3>8.5 HTML < cite > cho Tiêu đề công việc</h3>
+    <p>Thẻ HTML < cite > xác định tiêu đề của một tác phẩm sáng tạo (ví dụ: một cuốn sách, một bài thơ, một bài hát, một bộ phim, một bức tranh, một tác phẩm điêu khắc, v.v.).</p>
+    <p><b>Lưu ý:</b>Tên người không phải là tên tác phẩm.</p>
+    <p>Văn bản trong < cite > phần tử thường hiển thị ở dạng in nghiêng .</p>
+    <h3>Ví dụ:</h3>
+        <p>Hoạt hình <cite>How do you live?</cite>của Studio Ghibli sẽ được chiếu tại Việt Nam vào tháng 12</p>
+
+    <h3>8.6 HTML < bdo > để ghi đè hai chiều</h3>
+    <p>Thẻ HTML < bdo > được sử dụng để ghi đè hướng văn bản hiện tại</p>
+    <h3>Ví dụ:</h3>
+        <p><bdo dir="rtl">Hôm nay là chủ nhật</bdo></p>
+
+    <h2>9. HTML Comments</h2>
+    <h3>9.1 Thẻ nhận xét HTML</h3>
+    <p>Lưu ý rằng có dấu chấm than (!) trong thẻ bắt đầu nhưng không có trong thẻ kết thúc.</p>
+    <h3>Ví dụ:</h3>
+        <!-- Ví dụ ở đây -->
+    <p>Lưu ý: Trình duyệt không hiển thị các nhận xét nhưng chúng có thể giúp ghi lại mã nguồn HTML của bạn.</p>
+
+    <h3>9.2 Thêm nhận xét</h3>
+    <p>Với nhận xét, bạn có thể đặt thông báo và lời nhắc trong mã HTML của mình</p>
+    <h3>Ví dụ:</h3>
+        <p>Hôm nay là chủ nhật</p>
+        <!-- Nhớ hoàn thành bài tập trong hôm nay -->
+
+    <h3>9.3 Ẩn nội dung</h3>
+    <p>Bình luận có thể được sử dụng để ẩn nội dung, điều này có thể hữu ích nếu bạn tạm thời ẩn nội dung</p>
+    <h3>Ví dụ:</h3>
+        <p>Hôm nay là chủ nhật</p>
+        <!-- <p>Một câu nói khác</p> -->
+        <p>26/11 là chủ nhật</p>
+
+    <h3>9.4 Ẩn nội dung nội tuyến</h3>
+    <p>Nhận xét có thể được sử dụng để ẩn các phần ở giữa mã HTML.</p>
+    <h3>Ví dụ:</h3>
+        <p>Ngày<!-- ngày ngày --> là chủ nhật</p>
+
+    <h2>10. HTML Colors</h2>
+    <p>Màu HTML được chỉ định bằng tên màu được xác định trước hoặc bằng các giá trị RGB, HEX, HSL, RGBA hoặc HSLA.</p>
+    <h3>10.1 Tên màu</h3>
+    <p>Trong HTML, một màu có thể được chỉ định bằng cách sử dụng tên màu</p>
+    <p>HTML hỗ trợ 140 tên màu tiêu chuẩn .</p>
+    
+    <h3>10.2 Màu nền</h3>
+    <p>Bạn có thể đặt màu nền cho các thành phần HTML</p>
+    <h3>Ví dụ:</h3>
+        <p style="background-color:pink;">Hê lô hê lô</p>
+
+    <h3>10.3 Văn bản màu</h3>
+    <p>Bạn có thể đặt màu của văn bản</p>
+    <h3>Ví dụ:</h3>
+        <p><p style="color:DodgerBlue;">Chữ này màu xanh</p>
+
+    <h3>10.4 Màu viền</h3>
+    <h3>Ví dụ:</h3>
+        <h4 style="border:2px solid Violet;">Hello World</h4>
+
+    <h3>10.5 Giá trị màu</h3>
+    <p>Trong HTML, màu sắc cũng có thể được chỉ định bằng giá trị RGB, giá trị HEX, giá trị HSL, giá trị RGBA và giá trị HSLA.</p>
+    <p>Ba phần tử <div> sau đây có màu nền được đặt với các giá trị RGB, HEX và HSL:</p>
+    <ul>
+        <li>rgb(255, 99, 71)</li>
+        <li>#ff6347</li>
+        <li>hsl(9, 100%, 64%)</li>
+    </ul>
+    <p>Hai phần tử <div> sau đây có màu nền được đặt với các giá trị RGBA và HSLA, thêm kênh Alpha vào màu (ở đây chúng tôi có độ trong suốt 50%):</p>
+    <ul>
+        <li>rgba(255, 99, 71, 0,5)</li>
+        <li>hsla(9, 100%, 64%, 0,5)</li>
+    </ul>
+    <h3>Ví dụ:</h3>
+        <h4 style="background-color:hsl(9, 100%, 64%);">...</h4>
+        <h4 style="background-color:rgba(255, 99, 71, 0.5);">...</h4>
+
+    <h2>11. HTML Links</h2>
+    <p>Các liên kết được tìm thấy ở hầu hết các trang web. Liên kết cho phép người dùng nhấp chuột từ trang này sang trang khác.</p>
+    <h3>11.1 Liên kết HTML - Siêu liên kết</h3>
+    <p>Liên kết HTML là siêu liên kết.</p>
+    <p>Bạn có thể nhấp vào liên kết và chuyển sang tài liệu khác.</p>
+    <p>Khi bạn di chuyển chuột qua một liên kết, mũi tên chuột sẽ biến thành một bàn tay nhỏ.</p>
+    <p>Lưu ý: Liên kết không nhất thiết phải là văn bản. Liên kết có thể là hình ảnh hoặc bất kỳ phần tử HTML nào khác!</p>
+
+    <h3>11.2 Liên kết HTML - Cú pháp</h3>
+    <p>Thẻ HTML < a > xác định một siêu liên kết. Nó có cú pháp sau: < a href="url">link text</a ></p>
+    <p>Thuộc tính quan trọng nhất của < a > phần tử là thuộc tính "href", cho biết đích đến của liên kết.</p>
+    <p>Nhấp vào văn bản liên kết sẽ đưa người đọc đến địa chỉ URL được chỉ định.</p>
+    <h3>Ví dụ:</h3>
+        <a href="https://www.instagram.com/thuhuyen20204/"></a>
+
+    <h3>11.3 Liên kết HTML - Thuộc tính đích</h3>
+    <p>Thuộc tính "target" chỉ định nơi mở tài liệu được liên kết.</p>
+    <p>Thuộc tính "target" có thể có một trong các giá trị sau</p> 
+    <ul>
+        <li>_self- Mặc định. Mở tài liệu trong cùng cửa sổ/tab khi tài liệu được nhấp vào</li>
+        <li>_blank- Mở tài liệu trong cửa sổ hoặc tab mới</li>
+        <li>_parent- Mở tài liệu trong khung cha</li>
+        <li>_top- Mở tài liệu ở chế độ toàn màn hình</li>
+    </ul>
+    <h3>Ví dụ:</h3>
+        <a href="https://www.facebook.com/profile.php?id=100015689286123" target="_self">Facebook</a>
+
+    <h2>12. HTML Images</h2>
+    <p>Hình ảnh HTML được xác định bằng thẻ < img >.</p>
+    <p>Tệp nguồn ( src), văn bản thay thế ( alt), width và height được cung cấp dưới dạng thuộc tính:</p>
+    <h3>Ví dụ:</h3>
+        <img src="file:///C:/Users/ntthu/Downloads/z4776246920105_663015d945258a5990b9643c15c1d0a1.jpg">
+
+    <h2>13. HTML Tables</h2>
+    <h3>13.1 Ô bảng</h3>
+    <p>Mỗi ô của bảng được xác định bởi thẻ < td >và < /td >.</p>
+    <p>Mọi thứ ở giữa < td >và < /td >là nội dung của ô bảng.</p>
+    <p>Lưu ý: Một ô bảng có thể chứa tất cả các loại thành phần HTML: văn bản, hình ảnh, danh sách, liên kết, các bảng khác, v.v.</p>
+
+    <h3>13.2 Hàng bảng</h3>
+    <p>Mỗi hàng của bảng bắt đầu bằng thẻ < tr > và kết thúc bằng thẻ< /tr ></p>
+    <p>Lưu ý: Đôi khi một hàng có thể có ít hoặc nhiều ô hơn hàng khác. Bạn sẽ tìm hiểu về điều đó trong chương sau.</p>
+
+    <h3>13.3 Tiêu đề bảng</h3>
+    <p>Đôi khi bạn muốn các ô của mình là ô tiêu đề bảng. Trong những trường hợp đó, hãy sử dụng < th > thay vì < td ></p>
+
+    <h2>14. HTML Lists</h2>
+    <h3>14.1 Danh sách HTML không có thứ tự</h3>
+    <p>Danh sách không có thứ tự bắt đầu bằng < ul >. Mỗi mục danh sách bắt đầu bằng < li >.</p>
+    <p>Các mục trong danh sách sẽ được đánh dấu bằng dấu đầu dòng (vòng tròn nhỏ màu đen) theo mặc định:</p>
+    <h3>Ví dụ:</h3>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+
+    <h3>14.2 Danh sách HTML được xếp theo thứ tự</h3>
+    <p>Một danh sách có thứ tự bắt đầu bằng < ol >. Mỗi mục danh sách bắt đầu bằng < li ></p>
+    <p>Các mục trong danh sách sẽ được đánh dấu bằng số theo mặc định</p>
+    <h3>Ví dụ:</h3>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+    <h3>14.3 Danh sách mô tả HTML</h3>
+    <p>Thẻ < dl >xác định danh sách mô tả, thẻ < dt >>xác định thuật ngữ (tên) và thẻ < dd > mô tả từng thuật ngữ:</p>
+    <h3>Ví dụ:<dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl></h3>
+
+      <h2>15. Khối HTML và các phần tử nội tuyến</h2>
+      <h3>15.1 Các phần tử cấp khối</h3>
+      <p>Phần tử cấp khối luôn bắt đầu trên một dòng mới và trình duyệt sẽ tự động thêm một số khoảng trắng (lề) trước và sau phần tử.</p>
+      <p>Hai phần tử khối thường được sử dụng là: < p > và < div >.</p>
+      <p>Phần tử< p > xác định một đoạn văn trong tài liệu HTML.</p>
+      <p>Phần tử< div > xác định một bộ phận hoặc một phần trong tài liệu HTML.</p>
+      <h3>Ví dụ:</h3>
+        <p>Hello World</p>
+        <div>Hello World</div>
+
+      <h3>15.2 Các phần tử nội tuyến</h3>
+      <p>Phần tử nội tuyến không bắt đầu trên một dòng mới. Phần tử nội tuyến chỉ chiếm nhiều chiều rộng nếu cần thiết.</p>
+      <h3>Ví dụ: </h3>
+        <span>Hello World</span>
+
+      <h3>15.3 Phần tử < div ></h3>
+      <p>Phần tử < div >thường được sử dụng làm vùng chứa cho các phần tử HTML khác.</p>
+      <p>Phần tử < div > không có thuộc tính bắt buộc nhưng style, classvà id là phổ biến.</p>
+
+      <h3>15.4 Phần tử < span ></h3>
+      <p>Phần tử < span >là một vùng chứa nội tuyến được sử dụng để đánh dấu một phần của văn bản hoặc một phần của tài liệu.</p>
+      <p>Phần tử < span > không có thuộc tính bắt buộc nhưng style, classvà idlà phổ biến.</p>
+
+
+
+
+
+
+
+
+
+
+        
+
+    
+    
+
+</body>
+</html>

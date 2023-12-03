@@ -1,0 +1,26 @@
+body{
+    line-height: 1.5;
+    margin: auto;
+    max-width: 650px;
+    padding: 20px;
+}
+.container{
+    max-width: 1000px;
+    margin-right: 50px;
+}
+h3 {
+    background: #fff;
+    font-family: Arial;
+    font-size: 20px;
+}
+h1 {
+    font-family: Arial;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222;
+}
+img {
+    width: 650px;
+    display: inline-block;
+    vertical-align: top;
+}

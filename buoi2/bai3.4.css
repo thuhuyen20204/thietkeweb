@@ -1,0 +1,12 @@
+body{
+  padding: 30px;
+}
+
+img {
+  opacity: 0.5;
+  width: 300px;
+}
+
+img:hover {
+  opacity: 1.0;
+}

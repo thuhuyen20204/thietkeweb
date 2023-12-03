@@ -1,0 +1,12 @@
+body {
+    display: flex;
+ }
+
+.box {
+    background-color: lightgray;
+    border: 3px solid rgb(70, 18, 18);
+    max-width: 500px;
+    max-width: 100%;
+    width: 100%;
+    }
+        
