@@ -1,0 +1,51 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:DodgerBlue;
+}
+
+h2{
+    color:slateblue;
+}
+
+.container {
+    display: flex;
+}
+
+.column1 {
+    flex: 0 0 40%;
+    /*background-color: #e0e0e0;*/
+    padding: 30px;
+}
+
+.column2 h2{
+    flex: 1;
+    /*background-color: #f0f0f0;*/
+    color: black;
+}
+
+p {
+    margin-bottom: 30px;
+    }
+
+img {
+    width: 350px;
+
+}
+
+a{
+    text-decoration: none; 
+    color:black;  
+}
+
+.column2{
+    padding: 30px;
+}
+
+a:hover{
+    color: rgb(210, 17, 235)
+}
