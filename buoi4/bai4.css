@@ -1,0 +1,329 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu{
+    /*background: url('https://demo.kaliumtheme.com/fashion/wp-content/uploads/2016/12/home_slider_2.png');
+    background-size: cover;*/
+    height: 700px;
+    background-color: plum;
+}
+
+.menu1{
+    height: 70px;
+    padding-bottom: 10px;
+   
+}
+
+.menu1 img{
+    padding-left: 50px;
+    width: 120px;
+    padding-top: 30px;
+    padding-right: 400px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.dropbtn {
+    background-color: none;
+    color: white;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+  position: relative;
+  font-size: 17px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+   
+  }
+
+  .dropdown i{
+    color: white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    min-width: 210px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    padding-left: 0px;
+
+ 
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding:12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  
+
+  }
+  /*
+  .dropdown-content a:hover {
+    color: #00919c;
+    background-color: #272c32;
+}
+  */
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+  
+  .dropdown:hover .dropbtn {
+    color: white;
+  }
+
+  .box3 li{
+    display: inline-block;
+  }
+
+
+
+  .menu1 span{
+    font-size: 15px;
+  }
+
+/*
+.dropdown-content a {
+  position: relative; 
+  text-decoration: none; 
+  font-size: 20px;}
+
+.dropdown-content a::after{
+  content:'';
+  position: absolute;
+  bottom:0;
+  left:50%; 
+  width:0%;
+  background-color: gold;
+ transition: 0.4s;
+  
+}
+.dropdown-content a:hover:after{
+width:100%;
+ left:0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border: 2px solid black;
+}
+
+.dropdown:hover {
+  text-decoration: underline blue;
+  text-underline-offset: 6px;
+}*/
+
+.dropdown-content a {
+  line-height: 30px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  position: relative;
+}
+/*
+.dropdown-content a:hover {
+  text-decoration: underline bisque;
+}
+*/
+.dropdown-content a::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s ease;
+  padding-top: 0;
+}
+
+
+
+.dropdown-content a:hover::after{
+  width: 100%;
+}
+/*
+.dropdown-content a::after{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 1.25px;
+  width: 100%;
+  left: 0;
+  background-color: green;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  transform: scaleX(0);
+}
+.dropdown-content a:hover::after{
+  transform: scaleX(1);
+  width: 100%;
+}
+
+
+
+.dropdown-content li{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.aa, .aaa {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.aaa{
+  height: 2px;
+}
+
+
+.dropdown-content li:hover .aaa, .dropdown-content li:hover .aa{
+  width: 100%;
+}
+*/
+
+
+
+.underline {
+  position: absolute;
+  background-color: white;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  transition: width 0.3s ease;
+}
+
+.dropbtn:hover .underline {
+  width: 100%;
+}
+
+.menu2{
+
+  height: 33%px;
+  width: 500px;
+  margin-left: 30%;
+  margin-top: 20%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  
+}
+.menu2 h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.menu2 button{
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px 30px;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+}
+
+.menu2 button:hover{
+  background-color: lightgray;
+}
+
+.bai{
+ height: 750px;
+  margin-top: 70px;
+}
+
+.bai1{
+  text-align: center;
+}
+.bai1 button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px;
+
+}
+
+
+
+.bai2{
+  display: flex;
+  margin: 5% 5%;
+  justify-content: space-between;
+}
+
+.con1 , .con2 {
+  width: 260px;
+  height: 350px;
+  padding-right: 10px;
+}
+
+.con{
+  width: 260px;
+  height: 500px;
+  padding-right: 10px;
+}
+
+.con {
+  position: relative;
+
+}
+
+.con2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.con:hover .con2 {
+  opacity: 1;
+}
+
+.con3{
+  display: flex;
+  width: 260px;
+  padding-bottom: 0;
+  
+}
+
+.con4{
+  text-align: right;
+  width: 70px;
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  
+}
+

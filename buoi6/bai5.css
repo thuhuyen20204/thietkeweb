@@ -1,0 +1,20 @@
+.anh img{
+    width: 100vw;
+      height: 100vh; 
+      object-fit: cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+}
+
+#next, #back{
+    position: fixed;
+    bottom: 50%;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.anh #next{
+    left: 98%;
+}

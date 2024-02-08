@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+    
+a{
+    text-decoration: none;
+}
+
+.menu1{
+    background-color: #21252b;
+    height: 45px;
+    color: #666e70;
+    
+    
+}
+
+.menu1 b{
+    color: lightgray;
+}
+
+.menu1 .box1 ul{
+    margin-left: 30px;
+    margin-right: 185px;
+}
+
+.menu1 .box1{
+    display: flex;
+    padding-left: 50px;
+    
+}
+
+.menu1 .box1 i{
+    background-color: #00919c;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.menu1 .box1 a{
+    color: #00919c;
+}
+
+.menu1 .box1 a:hover{
+    color: #02747c;
+}
+.menu1 .box2{
+    display: flex;
+    
+    align-items: center;
+}
+
+#icon1, #icon2, #icon3{
+    border-right: 1px solid #ccc;
+    width: 45px;
+    min-height: 45px;
+    margin: 0;
+    
+    transition: transform 0.1s ease;
+}
+
+
+.menu1 .box2 i{  
+    padding-top: 15px;
+    
+
+}
+
+#icon1:hover{
+    background-color: #1CA3DB;
+    color: white;
+    transform: translateY(5px)
+    
+}
+
+#icon2:hover{
+    background-color: #395793;
+    color: white;
+    transform: translateY(5px)
+}
+
+#icon3:hover{
+    background-color: #CE4B81;
+    color: white;
+    transform: translateY(5px)
+}
+
+.menu2{
+    background-color: white;
+    height: 100px;
+   
+    
+}
+   
+
+.menu1, .menu2{
+    
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+ 
+}
+
+.menu2 img{
+    margin-left: 130px;
+}
+
+p{
+    padding-left: 20px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.menu1 ul{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+/*
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+*/
+.menu1 li{
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.menu2 .box{
+    padding-left: 400px;
+    display: flex;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 17px 0;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #21252b;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 0;
+    box-sizing: border-box;
+ 
+  }
+  
+  .dropdown-content a {
+    color: lightgray;
+    padding:12px 20px;
+    
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 0.5px solid #5b6166;
+  
+
+  }
+  
+  .dropdown-content a:hover {
+    color: #00919c;
+    background-color: #272c32;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-top: 4px solid #0dc0c0;
+  }
+  
+  .dropdown:hover .dropbtn {
+    color: #00919c;
+  }
+
+  .box3 li{
+    display: inline-block;
+  }
+
+  button{
+   
+    margin-left: 20px;
+  }
+
+
+
+
+
+.menu3 img{
+    width: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: white
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}
+
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown1 .dropbtn1 {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown1:hover .dropbtn1 {
+  color: #00919c;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  border-top: 4px solid #0dc0c0;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  justify-content: center;
+  background-color: #21252b;
+  width: max-content;
+  left: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 250px;
+ 
+  background-color: #21252b;
+  
+  height: max-content;
+}
+
+.column a {
+  float: none;
+  color: lightgray;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-right: 0.5px solid #5b6166;
+  
+}
+
+.column a:hover {
+  background-color: #272c32;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu2 i{
+  color: #666e70;
+}
+

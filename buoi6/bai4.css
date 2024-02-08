@@ -1,0 +1,23 @@
+.bai{
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    width: 500px;
+    border: 2px solid black;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+    color: purple;
+}
+
+form{
+    padding-left: 20px;
+}
+
+.form{
+    
+}

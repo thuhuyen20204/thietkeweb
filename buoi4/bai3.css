@@ -1,0 +1,82 @@
+.box, .box1, .box2, .box3{
+    width:200px;
+    height:200px;
+}
+
+body{
+    background-color: #340d4e;
+    font-family: Arial, Helvetica, sans-serif
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.box .box1{
+    top:0;
+    left:0;
+    position: absolute;
+    transition: 0.4s;
+}
+.box:hover .box1{
+    transform: scale(1.2);
+}
+.box .box2{
+    opacity:0;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    transition: 0.4s;
+ }
+.box:hover .box2{
+    opacity: 0.4;
+    transform: scale(1.2);
+
+}
+.box .box3{
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    color: white;
+    font-size: 30px;
+    opacity:0;
+    transition: 0.4s;
+}
+.box:hover .box3{
+    opacity: 1;
+}
+
+.bo{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    
+}
+
+p, a{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    
+}
+
+p:hover{
+    color: violet;
+    
+}
+
+.yc:hover{
+    text-decoration: underline;
+
+}
+
+
+
